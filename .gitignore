@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# log file
+log/
+*.log
+*.log.*
+
+# production config file
+config/production/*
+
+
+# eclipse project file
+
+.project
+.pydevproject
+.settings/
+.DS_Store
+
+# order.thrift.swp
+*.swp
+
+# py.test
+.cache
+**/.cache
+
+# dotenv
+.env
+
+.idea
+
+# idl
+gen_idl
+.vscode
